@@ -1,5 +1,5 @@
 # Overview of data preprocessing and modelling
-This is an introduction of how to navigate the following folders and their functionality. (You can download all folders, trained weights and preprocessed data in just one link: https://drive.google.com/drive/folders/1P03UYafoWcOuTDXKd0C5kAi1-aR4z35q?usp=share_link)
+This is an introduction of how to navigate the following folders and their functionality. You can download all folders, trained weights and preprocessed data in just one link: https://drive.google.com/drive/folders/1P03UYafoWcOuTDXKd0C5kAi1-aR4z35q?usp=share_link)
 * (1) PSI-Dataset/
 * (2) tf-cpn/
 * (3) JAAD/
@@ -49,3 +49,17 @@ link: https://drive.google.com/file/d/1nM6eaMjcapZldPuE-MGS7nk1m48hc_7u/view?usp
     ├── PSI-Competition/   #PSI test                  
     ├── stacking/          #model training and testing
     └── Overview.md
+
+## Performance
+The work has won the 1st Prize in ITSC ITSS student competition in the 1st track of Pedestrian Behaviour Prediction (link: https://psi-intention2022.github.io/). The following table shows its performance on predicting PSI validation set and test set. 
+
+<td>
+
+Dataset | Accuracy | Mean class accuracy | Macro-F1 
+---|---|---|---
+PSI val |69.9%| 64.9% | 63.2%
+PSI test |70.1% | 63.3% | 62.3%
+
+</td>
+</tr>
+</p>
